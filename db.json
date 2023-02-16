@@ -1,0 +1,88 @@
+{
+  "sinhVien": [
+    {
+      "ten": "ten 5",
+      "tuoi": 26,
+      "gioiTinh": true,
+      "chuyenNganh": "udpm",
+      "id": "5"
+    },
+    {
+      "ten": "ten 6",
+      "tuoi": 60,
+      "gioiTinh": true,
+      "chuyenNganh": "udpm",
+      "id": "6"
+    },
+    {
+      "ten": "ten 9",
+      "tuoi": 28,
+      "gioiTinh": false,
+      "chuyenNganh": "tktw",
+      "id": "9"
+    },
+    {
+      "ten": "ten 10",
+      "tuoi": 29,
+      "gioiTinh": false,
+      "chuyenNganh": "tktw",
+      "id": "10"
+    },
+    {
+      "ten": "ten 11",
+      "tuoi": 55,
+      "gioiTinh": false,
+      "chuyenNganh": "tktw",
+      "id": "11"
+    },
+    {
+      "ten": "ten 12",
+      "tuoi": 49,
+      "gioiTinh": false,
+      "chuyenNganh": "ltmt",
+      "id": "12"
+    },
+    {
+      "ten": "ten 13",
+      "tuoi": 94,
+      "gioiTinh": false,
+      "chuyenNganh": "ltmt",
+      "id": "13"
+    },
+    {
+      "ten": "ten 14",
+      "tuoi": 78,
+      "gioiTinh": false,
+      "chuyenNganh": "ltmt",
+      "id": "14"
+    },
+    {
+      "ten": "ten 15",
+      "tuoi": 36,
+      "gioiTinh": false,
+      "chuyenNganh": "ltmt",
+      "id": "15"
+    },
+    {
+      "ten": "ten 16",
+      "tuoi": 86,
+      "gioiTinh": false,
+      "chuyenNganh": "ltmt",
+      "id": "16"
+    },
+    {
+      "ten": "Hang Test Demo",
+      "chuyenNganh": "tktw",
+      "tuoi": "40",
+      "gioiTinh": "false",
+      "id": "otft99j"
+    },
+    {
+      "ten": "Hang Demo",
+      "chuyenNganh": "tktw",
+      "tuoi": "10",
+      "gioiTinh": true,
+      "id": "S8r6k3n"
+    }
+  ]
+}
