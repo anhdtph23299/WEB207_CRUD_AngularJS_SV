@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="myApp">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
   </head>
-  <body ng-controller="myController">
+  <body >
     <div class="container">
       <!-- Form -->
       <div class="row col-12">
@@ -22,8 +22,6 @@
               <input
                 type="text"
                 class="form-control"
-                name="ho_ten"
-                ng-model="form_sinhVien.ten"
               />
             </div>
             <div class="col-6">
@@ -31,7 +29,6 @@
               <select
                 name="c_nganh"
                 class="form-select"
-                ng-model="form_sinhVien.chuyenNganh"
               >
                 <option value="udpm">Ứng dụng phần mềm</option>
                 <option value="tktw">Thiết kế trang web</option>
@@ -45,7 +42,6 @@
               <input
                 type="text"
                 class="form-control"
-                ng-model="form_sinhVien.tuoi"
               />
             </div>
             <div class="col-6">
@@ -55,16 +51,12 @@
                   type="radio"
                   name="gioiTinh"
                   value="true"
-                  ng-model="form_sinhVien.gioiTinh"
-                  ng-checked="form_sinhVien.gioiTinh == true"
                 />
                 <label>Nam</label>
                 <input
                   type="radio"
                   name="gioiTinh"
                   value="false"
-                  ng-model="form_sinhVien.gioiTinh"
-                  ng-checked="form_sinhVien.gioiTinh == false"
                 />
                 <label>Nữ</label>
               </div>
@@ -74,13 +66,11 @@
           <div class="row mt-4" style="justify-content: center">
             <button
               class="btn btn-success col-1 m-3"
-              ng-click="addStudent($event);"
             >
               Thêm
             </button>
             <button
               class="btn btn-primary col-1 m-3"
-              ng-click="updateStudent($event);"
             >
               Cập nhập
             </button>
@@ -103,20 +93,7 @@
             </tr>
           </thead>
           <tbody>
-            <tr ng-repeat="sv in listSinhVien">
-              <td>{{$index+1}}</td>
-              <td>{{sv.ten}}</td>
-              <td>
-                <span ng-show="sv.gioiTinh">Nam</span>
-                <span ng-hide="sv.gioiTinh">Nữ</span>
-              </td>
-              <td>{{sv.chuyenNganh}}</td>
-              <td>{{sv.tuoi}}</td>
-              <td>
-                <a href="#" ng-click="detailStudent($event,$index);">Detail</a>
-                <a href="#" ng-click="removeStudent($event,$index);">Remove</a>
-              </td>
-            </tr>
+           
           </tbody>
         </table>
       </div>
@@ -139,6 +116,5 @@
     ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
     <script src="https://code.angularjs.org/1.8.2/angular-route.js"></script>
-    <script src="index.js"></script>
   </body>
 </html>
